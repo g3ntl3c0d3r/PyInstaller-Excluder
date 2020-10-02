@@ -1,5 +1,5 @@
 # Pyinstaller-Excluder
-A simple tool to reduce the size of an application you want to build with Pyinstaller by simply excluding unnecessary modules
+A simple script to reduce the size of an application you want to build with Pyinstaller by simply excluding unnecessary modules
 
 ## How does it work?
 1. Gets path to the python script from user
