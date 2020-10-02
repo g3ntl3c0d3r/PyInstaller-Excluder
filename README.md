@@ -1,4 +1,5 @@
 # Pyinstaller-Excluder
+A simple tool to reduce the size of your application that was built by pyinstaller
 
 ## How does it work?
 1. Gets path to the python script from user
