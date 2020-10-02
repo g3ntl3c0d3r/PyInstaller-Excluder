@@ -9,3 +9,5 @@ A simple tool to reduce the size of an application you want to build with Pyinst
 5. Generates "--exclude-module" commands and prints them
 
    There is also an option at the end to remove some modules from the excluded list and generate the commands again in case it turns out your application requires some modules that have been excluded.
+
+#### Hope you'll find it useful! :D
