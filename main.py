@@ -53,7 +53,7 @@ if __name__ == '__main__':
     # Search for modules
     foundModules = []
     for line in srcFile:
-        if '\'' not in line and '"' not in line:
+        if '\'' not in line and '"' not in line and '#' not in line:
             if 'from ' in line:
                 foundModules.append('')
                 if '.' in line:
@@ -152,7 +152,7 @@ if __name__ == '__main__':
     print()
     print(excludeCommands)
 
-    # User choice
+    # User edit choice
     isAnswerOk = False
     while not isAnswerOk:
         userInput = input('\nDo you want to remove some modules from the command list? (y/n): ')
